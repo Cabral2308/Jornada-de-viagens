@@ -23,9 +23,9 @@
   }
 
   .hero h2 {
-  padding: 88px 60px;
-  font-size: 32px;
-}
+    padding: 88px 60px;
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -36,13 +36,13 @@
   }
 
   .hero h2 {
-  padding: 88px 120px;
-  font-size: 32px;
-}
+    padding: 88px 120px;
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .hero h2 {
-  padding: 88px 160px;
-}
+    padding: 88px 160px;
+  }
 }

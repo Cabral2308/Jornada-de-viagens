@@ -1,32 +1,74 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url(../fonts/Montserrat-variablefont_wght.ttf);
-    font-style: normal;
-    font-display: swap;
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-variablefont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
 }
 
-:root{
-    --primary-color: #0F0101;
-    --secondary-color: #B81515;
-    
-    --background-primary-color: #ffffff;
-    --background-secondary-color: #f5f5f5;
-    --background-tertiary-color: #000000;
+:root {
+  --primary-color: #0f0101;
+  --secondary-color: #b81515;
+  --tertiary-color: #8f0101;
 
-    --text-primary-color: #222222;
-    --text-secondary-color: #FFFFFF;
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
 
-    --title-weight: 700;
-    --text-weight: 400;
-    --menu-text-weight: 500;
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Montserrat";
+body {
+  font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+.button {
+  width: 280px;
+  height: 64px;
+  background-color: var(--secondary-color);
+  color: var(--text-secondary-color);
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 8px;
+  line-height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--tertiary-color);
+  }
 }
