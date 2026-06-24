@@ -17,11 +17,7 @@
 }
 
 .offer-cards .card header {
-  position: static;
-  display: block;
-  padding: 0;
   margin-bottom: 24px;
-  background-color: transparent;
 }
 
 .offer-cards .card header p {
