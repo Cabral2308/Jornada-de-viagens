@@ -40,7 +40,18 @@ body {
 
 .section-title {
   width: 280px;
-  margin: 0 auto 32px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.text {
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .section.hero {
