@@ -1,6 +1,6 @@
 .destinations {
   width: 312px;
-  margin: 0 auto;
+  margin: 0 auto 88px;
 }
 
 .destinations .destination-items {
@@ -26,16 +26,9 @@
 }
 
 .destinations .destination-items h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
   margin: 24px 0;
 }
 
-.destinations .destination-items p {
-  font-weight: var(--text-weight);
-  font-size: 20px;
-  line-height: 32px;
-}
 
 .destinations .destination-items a.button {
   width: 100%;
